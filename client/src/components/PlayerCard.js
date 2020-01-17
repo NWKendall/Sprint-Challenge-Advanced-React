@@ -9,7 +9,7 @@ const PlayerCard = ({player}) => {
     <div style={{border: "black solid 1px", width: "30%"}}>
       <h4>{name}</h4>
       <h4>{country}</h4>
-      <h4>{searches}</h4>   
+      <h4>Searches: {searches}</h4>   
     </div>
   )
 }

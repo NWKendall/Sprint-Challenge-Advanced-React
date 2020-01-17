@@ -15,9 +15,8 @@ const NavBar = () => {
 
   return (
     <div>
-      <h2>Women's World Cup</h2>
-      <button onClick={toggleTheme}
-      className={darkMode ? "defaultTheme" : "altTheme"}>DarkMode</button>
+      <h2>Women's World Cup: Most Popular Players!</h2>
+      <button data-testid="NBbtn" onClick={toggleTheme}>DarkMode</button>
     </div>
   )
 }
