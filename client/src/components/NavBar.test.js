@@ -9,7 +9,6 @@ describe(`Navbar tests`, () => {
     getByText(/world cup/i)
   })
 
-
   test(`NavBar contains toggle buttong`, () => {
     const { getByTestId, getByText } = render(<NavBar />);
     

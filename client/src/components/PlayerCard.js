@@ -6,7 +6,7 @@ const PlayerCard = ({player}) => {
   
 
   return (
-    <div style={{border: "black solid 1px", width: "30%"}}>
+    <div style={{width: "1fr", border: "1px solid black"}}>
       <h4>{name}</h4>
       <h4>{country}</h4>
       <h4>Searches: {searches}</h4>   
