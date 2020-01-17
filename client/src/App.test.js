@@ -11,13 +11,13 @@ it('renders without crashing', () => {
   ReactDOM.unmountComponentAtNode(div);
 });
 
-test(`importing NavBar correctly`, () => {
-  render(<NavBar />);
-});
+// test(`importing NavBar correctly`, () => {
+//   render(<NavBar />);
+// });
   
-test(`importing PlayerList correctly`, () => {
-  render(<PlayerList />);
-});
+// test(`importing PlayerList correctly`, () => {
+//   render(<PlayerList />);
+// });
   
 
 
